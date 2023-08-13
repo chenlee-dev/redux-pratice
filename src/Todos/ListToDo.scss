@@ -1,0 +1,51 @@
+.list-todo-container {
+    button {
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        font-size: 15px;
+
+    }
+    .add-todo {
+        margin-bottom: 20px;
+        
+        .add-btn {
+            margin: 0 10px;
+        }
+
+        .add-btn:hover, .add-btn:active{
+            background-color: rgb(75, 152, 216);
+            color: black;
+
+        }
+    }
+    .list-todo-content {
+        width: 50%;
+        margin: auto;
+
+        .todo-child {
+            display: flex;
+            border-bottom: 1px solid white;
+            margin: 10px 0p;
+            padding: 10px 0;
+            
+            span {
+                flex-basis: 70%;
+                text-align: left;
+            }
+            .edit-btn {
+                margin: 0 10px;
+            }
+            .edit-btn:hover {
+                background-color: rgb(75, 152, 216);
+                color: black;
+            }
+            .delete-btn:hover {
+                background-color: red;
+                color: black;
+            }
+        }
+
+    }
+}
