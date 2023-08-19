@@ -1,6 +1,7 @@
 import React from 'react';
 import withRouter from '../UseNavigate';
 import Color from '../../HOC/Color';
+import logo from '../../assets/images/pngimg.com - spongebob_PNG32.png';
 
 
 
@@ -17,7 +18,13 @@ class Home extends React.Component {
     render() {
         console.log('Check PROPS>>>>>>:', this.props);
         return (
+            <>
             <div>Hello World From Home</div>
+            <div>
+                <img src={logo} style={{width:"500px" ,height:"400px", marginTop: '40px'}}/>
+
+            </div>
+            </>
         )
     }
 }

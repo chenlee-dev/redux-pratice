@@ -4,6 +4,8 @@ import Nav from './Nav/Nav';
 import Home from './Nav/Example/Home';
 import About from './Nav/Example/About';
 import User from './User/User';
+import DetailUser from './User/DetailUser';
+
 
 import './App.scss';
 import 'react-toastify/dist/ReactToastify.css';
@@ -30,7 +32,8 @@ function App() {
             <Route path="/" exact='true' element={<Home/>}/>
             <Route path="/todo" element={<ListTodo/>} />
             <Route path="/about" element={<About/>} />
-            <Route path="/user" element={<User/>} />
+            <Route path="/user" exact='true' element={<User/>} />
+            <Route path="/user/:id" element={<DetailUser/>} />
           </Routes>
 
         </header>
