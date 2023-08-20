@@ -1,7 +1,8 @@
 import React from 'react';
-import withRouter from '../UseNavigate';
-import Color from '../../HOC/Color';
+import withRouter from '../Nav/UseNavigate';
+import Color from '../HOC/Color';
 import logo from '../../assets/images/pngimg.com - spongebob_PNG32.png';
+
 
 
 

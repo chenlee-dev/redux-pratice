@@ -1,10 +1,10 @@
 import logo from './logo.svg';
-import ListTodo from './Todos/ListToDo';
-import Nav from './Nav/Nav';
-import Home from './Nav/Example/Home';
-import About from './Nav/Example/About';
-import User from './User/User';
-import DetailUser from './User/DetailUser';
+import ListTodo from  './views/Todos/ListToDo';
+import Nav from './views/Nav/Nav';
+import Home from './views/Example/Home'
+import About from './views/Example/About';
+import User from './views/User/User';
+import DetailUser from './views/User/DetailUser';
 
 
 import './App.scss';
